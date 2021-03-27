@@ -13,6 +13,7 @@ public class CurveMove : MonoBehaviour
 
     void Start()
     {
+        //謝謝婷蓁教我用GitHub
         //计算两者之间的距离  
         distanceToTarget = Vector3.Distance(this.transform.position, target.transform.position);
         StartCoroutine(Move());
